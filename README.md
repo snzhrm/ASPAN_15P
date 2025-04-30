@@ -25,10 +25,9 @@ A Flask-based web application for managing drone deliveries of food orders. This
 
 ## Installation
 
-1. Clone the repository:
+1. Download the zip file:
 ```bash
-git clone https://github.com/snzhrm/ASPAN/blob/main/pythonDronProject%20(2).zip
-cd drone-delivery
+https://github.com/snzhrm/ASPAN/blob/main/pythonDronProject%20(2).zip
 ```
 
 2. Create and activate a virtual environment:
@@ -42,7 +41,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Create a `.env` file in the project root with the following content:
+4. Change a `.env` file in the project root with the following content:
 ```
 SECRET_KEY=your-secret-key-here
 SQLALCHEMY_DATABASE_URI=sqlite:///app.db
