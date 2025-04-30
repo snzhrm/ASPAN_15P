@@ -23,6 +23,41 @@ A Flask-based web application for managing drone deliveries of food orders. This
 - **Maps**: Folium
 - **Environment Management**: python-dotenv
 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/snzhrm/ASPAN/blob/main/pythonDronProject%20(2).zip
+cd drone-delivery
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `.env` file in the project root with the following content:
+```
+SECRET_KEY=your-secret-key-here
+SQLALCHEMY_DATABASE_URI=sqlite:///app.db
+```
+
+5. Initialize the database:
+```bash
+python init_db.py
+```
+
+6. Run the application:
+```bash
+python run.py
+```
+
 The application will be available at `http://localhost:5000`
 
 ## Project Structure
@@ -66,3 +101,4 @@ drone-delivery/
 - Product management
 - Order monitoring
 - System statistics
+
