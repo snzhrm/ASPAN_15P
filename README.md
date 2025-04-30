@@ -1,103 +1,90 @@
-# Drone Delivery System
+# DroneDeliverySystem_15P
 
-A Flask-based web application for managing drone deliveries of food orders. This system allows users to browse restaurants, place orders, and track drone deliveries in real-time.
+## Introduction  
+This project is a Flask-based web application for managing drone deliveries of food orders. Users can browse restaurants, place orders, and track drone deliveries in real-time via an interactive web interface.
 
-## Features
+## Problem Statement  
+Modern food delivery systems face challenges in speed, efficiency, and live tracking. Human-based delivery is often delayed, lacks transparency, and is hard to scale. Our project addresses this by automating the delivery process using drones, enabling faster, traceable, and contactless food delivery.
 
-- User authentication (login/register)
-- Restaurant browsing and menu viewing
-- Shopping cart functionality
-- Order placement and tracking
-- Real-time drone position tracking
-- Admin panel for managing users and products
-- Responsive web interface
+## Objectives  
+- Automate food delivery using drones  
+- Provide real-time tracking of orders  
+- Improve transparency and reduce delivery delays  
+- Allow restaurant and order management through a web interface  
+- Implement an admin dashboard for monitoring users and products  
 
-## Tech Stack
+## Technology Stack  
+• **Frontend:** HTML, CSS, JavaScript  
+• **Backend:** Python, Flask  
+• **Database:** SQLite (can be configured for PostgreSQL)  
+• **Authentication:** Flask-Login  
+• **Forms:** Flask-WTF  
+• **ORM:** Flask-SQLAlchemy  
+• **Maps:** Folium  
+• **Others:** python-dotenv  
 
-- **Backend**: Python, Flask
-- **Database**: SQLite (can be configured for PostgreSQL)
-- **Frontend**: HTML, CSS, JavaScript
-- **Authentication**: Flask-Login
-- **Forms**: Flask-WTF
-- **Database ORM**: Flask-SQLAlchemy
-- **Maps**: Folium
-- **Environment Management**: python-dotenv
-
-## Installation
-
-1. Download the zip file:
-```bash
-https://github.com/snzhrm/ASPAN/blob/main/pythonDronProject%20(2).zip
+## Installation Instructions  
+### 1. Clone the repository  
+```bash  
+git clone https://github.com/snzhrm/ASPAN.git  
 ```
 
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+### 2. Navigate into the project directory  
+```bash  
+cd ASPAN  
 ```
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
+### 3. Create and activate a virtual environment  
+```bash  
+python -m venv venv  
+source venv/bin/activate  # On Windows: venv\Scripts\activate  
 ```
 
-4. Change a `.env` file in the project root with the following content:
-```
-SECRET_KEY=your-secret-key-here
-SQLALCHEMY_DATABASE_URI=sqlite:///app.db
-```
-
-5. Initialize the database:
-```bash
-python init_db.py
+### 4. Install dependencies  
+```bash  
+pip install -r requirements.txt  
 ```
 
-6. Run the application:
-```bash
-python run.py
+### 5. Set environment variables  
+Change a `.env` file in the root directory and add:  
+```env  
+SECRET_KEY=your-secret-key-here  
+SQLALCHEMY_DATABASE_URI=sqlite:///app.db  
 ```
 
-The application will be available at `http://localhost:5000`
-
-## Project Structure
-
-```
-drone-delivery/
-├── app/
-│   ├── static/          # Static files (CSS, JS, images)
-│   ├── templates/       # HTML templates
-│   ├── __init__.py     # Application factory
-│   ├── models.py       # Database models
-│   ├── routes.py       # Application routes
-│   └── forms.py        # Form definitions
-├── .env                # Environment variables
-├── init_db.py         # Database initialization script
-├── requirements.txt   # Project dependencies
-└── run.py            # Application entry point
+### 6. Initialize the database  
+```bash  
+python init_db.py  
 ```
 
-## Features in Detail
+### 7. Run the application  
+```bash  
+python run.py  
+```
 
-### User Management
-- User registration and login
-- Password hashing and security
-- User profiles and order history
+The application will be available at: [http://localhost:5000](http://localhost:5000)
 
-### Restaurant System
-- Browse multiple restaurants
-- View detailed menus
-- Add items to cart
-- Place orders with delivery coordinates
+## Usage Guide  
+- Register or log in as a user  
+- Browse available restaurants and their menus  
+- Add items to cart and place orders with delivery coordinates  
+- View real-time drone location and delivery status  
+- Admins can manage users, products, and view system stats  
 
-### Drone Tracking
-- Real-time drone position updates
-- ETA calculations
-- Weather conditions monitoring
-- Battery level tracking
 
-### Admin Features
-- User management
-- Product management
-- Order monitoring
-- System statistics
+## Known Issues / Limitations (Optional)  
+- No support for mobile PWA version yet  
+- Weather API not yet fully integrated for drone safety  
+- Currently uses mock drone GPS data  
 
+## References  
+- Flask documentation  
+- Flask-Login and Flask-WTF tutorials  
+- Folium for map rendering  
+- SQLite official documentation  
+
+## Team Members  
+220103334 Muratkaliev Meyrambek 15P
+220103079 Assadbek Doskaliyev
+230103035 Absattar Bereke 15P
+220103059 Sanzhar Zhaksykeldi 15P
