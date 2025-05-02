@@ -1,4 +1,4 @@
-# DroneDeliverySystem_15P
+# ASPAN_15P
 
 ## Introduction  
 This project is a Flask-based web application for managing drone deliveries of food orders. Users can browse restaurants, place orders, and track drone deliveries in real-time via an interactive web interface.
@@ -85,6 +85,6 @@ The application will be available at: [http://localhost:5000](http://localhost:5
 
 ## Team Members  
 220103334 Muratkaliev Meyrambek 15P
-220103079 Assadbek Doskaliyev
+220103079 Assadbek Doskaliyev 18P
 230103035 Absattar Bereke 15P
 220103059 Sanzhar Zhaksykeldi 15P
