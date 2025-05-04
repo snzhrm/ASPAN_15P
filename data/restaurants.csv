@@ -1,0 +1,4 @@
+﻿id,name,description,logo_path
+1,"""KFC""","""Finger-lickin' good chicken and more!""","""images/kfc-logo.png"""
+2,"""Salam Bro""","""Authentic Middle Eastern cuisine with a modern twist.""","""images/salam-bro-logo.png"""
+3,"""YOLO Coffeehouse""","""Artisanal coffee and delicious pastries in a cozy atmosphere.""","""images/yolo-logo.png"""

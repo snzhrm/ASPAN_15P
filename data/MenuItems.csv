@@ -1,0 +1,10 @@
+id,name,description,price,image_path,restaurant_id
+1,"""Original Recipe Chicken Bucket""","""8 pieces of our signature Original Recipe chicken""",24.99,"""images/kfc-bucket.jpg""",1
+2,"""Zinger Burger""","""Crispy chicken fillet with lettuce and mayo""",8.99,"""images/kfc-zinger.jpg""",1
+3,"""French Fries""","""Crispy golden fries""",3.99,"""images/kfc-fries.jpg""",1
+4,"""Shawarma Plate""","""Served with rice, salad, and garlic sauce""",12.99,"""images/salam-shawarma.jpg""",2
+5,"""Falafel Wrap""","""Crispy falafel with hummus and vegetables""",9.99,"""images/salam-falafel.jpg""",2
+6,"""Mixed Grill""","""Assortment of grilled meats with rice and salad""",18.99,"""images/salam-mixed-grill.jpg""",2
+7,"""Artisan Coffee""","""Single-origin coffee beans, freshly roasted""",4.99,"""images/yolo-coffee.jpg""",3
+8,"""Avocado Toast""","""Sourdough bread with avocado, poached eggs, and microgreens""",8.99,"""images/yolo-avocado-toast.jpg""",3
+9,"""Chocolate Croissant""","""Buttery croissant filled with dark chocolate""",3.99,"""images/yolo-croissant.jpg""",3
