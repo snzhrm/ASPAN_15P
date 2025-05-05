@@ -86,11 +86,6 @@ The application will be available at: http://localhost:5000
 3. Manage users, restaurants, and menu items
 4. Monitor system statistics and order statuses
 
-## Testing
-To run the test suite:
-```bash
-python -m pytest tests/
-```
 
 ## Known Issues / Limitations
 - Mobile PWA version is not yet supported
